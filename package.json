@@ -1,0 +1,23 @@
+{
+  "name": "NodeJS_RocketSeat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlavioCaruso/Aulas-NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlavioCaruso/Aulas-NodeJS/issues"
+  },
+  "homepage": "https://github.com/FlavioCaruso/Aulas-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
