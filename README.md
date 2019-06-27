@@ -30,3 +30,5 @@ Utilizar o comando:
 npm run dev
 ```
 Com este comando, o servidor de desenvolvimento será aberto em "http://localhost:3001".
+
+### Nessa aplicação foi utilizado o Docker toolbox para a utilização do MongoDB. Mas voce pode utilizar qualquer outro meio de acessar o mongoDB.
