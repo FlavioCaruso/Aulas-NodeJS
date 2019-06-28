@@ -1,5 +1,5 @@
 //abrir o DockerToolbox
-// npm run serve
+// npm run dev
 
 const express = require('express');
 const mongoose = require('mongoose');
@@ -13,16 +13,7 @@ mongoose.connect('mongodb://192.168.99.100:27017/nodeapi', { useNewUrlParser: tr
 
 requireDir('./src/models');
 
-const Product = mongoose.model('Product');
-
-//Primeira Rota
-app.get('/', (req, res) =>{
-    Product.create({
-        title: "NodeJS",
-        description: "Aula NodeJS",
-        url: "https://github.com/FlavioCaruso/Aulas-NodeJS"
-    })
-    return res.send('Hello Flavio');
-})
+// Rotas
+app.use('/api', require("./src/routes"));
 
 app.listen(3001);
